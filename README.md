@@ -1,3 +1,4 @@
-# ELS - Enterprise Linux/EuroLinux Sources - sblim-tools-libra 
+# ELS - Enterprise Linux/EuroLinux Sources - sblim-tools-libra
+ 
 ## Usage:
-  Checkout branch or tag.
+  Checkout branch or tag. Use `make sources` to recreate  SOURCE0 archive.

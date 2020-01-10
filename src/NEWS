@@ -1,0 +1,45 @@
+Changes in 1.0-1:
+==============================================================================
+- Change licensing from CPL to EPL
+
+Changes in 0.5.6-1:
+==============================================================================
+- Maintenance release
+
+Changes in 0.5.5-1:
+==============================================================================
+- Maintenance release
+
+Changes in 0.5.4-1:
+==============================================================================
+- Maintenance release
+
+Changes in 0.5.3-1:
+==============================================================================
+- 1845495  tools-libra: Include proper group definition for RPM build
+
+Changes in 0.5.2-1:
+==============================================================================
+- Increase of version number
+
+Changes in 0.5.1-1:
+==============================================================================
+- Increase of version number
+
+Changes in 0.5.0-1:
+==============================================================================
+- 1764884  tools-libra: More specific on package content
+
+Changes in 0.2.3-1:
+==============================================================================
+- 1608475 tools-libra: Remove needless 'DEBUG' defines
+- 1608477 tools-libra: Add functionality to modify the configuration
+
+Changes in 0.2.2-1:
+==============================================================================
+- Updated printout statements to provide more information
+
+Changes in 0.2.1-1:
+==============================================================================
+- Lots of bug fixing
+- Lots of stability enhancements

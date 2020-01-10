@@ -1,0 +1,186 @@
+2009-06-17 14:47  jbongio
+
+	* NEWS, configure.ac, sblim-tools-libra.spec.in: Maintenance
+	  release 0.5.6-1
+
+2008-05-12  skannan  <skannan@skannanlaptop.ibm.com>
+
+	* NEWS, sblim-tools-libra.spec.in: Maintenance release 0.5.5-1  
+
+2008-04-30 18:37  skanan
+
+	* NEWS, configure.ac, sblim-tools-libra.spec.in: Maintenance
+	  release 0.5.4-1
+
+2007-12-11 10:39  skanan
+
+	* NEWS, configure.ac, sblim-tools-libra.spec.in: Maintenance
+	  release 0.5.3-1
+
+2007-12-06 09:18  taphorn
+
+	* .cvsignore, NEWS, sblim-tools-libra.spec.in: Fix for issue
+	  [1845495]  tools-libra: Include proper group definition for RPM
+	  build
+
+// =========================================================================
+// new in version 0.5.2-1 :
+//
+
+2007-09-14 14:31  taphorn
+
+	* NEWS, configure.ac, sblim-tools-libra.spec.in: Preparation of
+	  next release
+
+2007-09-12 18:09  taphorn
+
+	* .settings/org.eclipse.cdt.core.prefs, .cproject: Initial upload
+	  of WBEM-SMT service sample implementation
+
+// =========================================================================
+// new in version 0.5.1-1 :
+//
+
+2007-08-27 10:17  taphorn
+
+	* .cvsignore: updated .cvsignore to avoid the commit of some
+	  needless resource
+
+
+// =========================================================================
+// new in version 0.5.0-1 :
+//
+
+2007-07-31 23:10  taphorn
+
+	* NEWS, sblim-tools-libra.spec.in: Fix for issue [ 1764884 ]
+	  tools-libra: More specific on package content
+
+2007-07-31 16:16  taphorn
+
+	* ChangeLog: Just added 0.5.0 statement to ChangeLog
+
+2007-07-31 16:15  taphorn
+
+	* ChangeLog: Added 0.5.0 statement to ChangeLog
+
+2007-07-07 00:01  taphorn
+
+	* NEWS, README, configure.ac: Latest fixes for 0.5.0 release
+
+
+// =========================================================================
+// new in version 0.2.3-1 :
+
+2006-12-04 15:16  taphorn
+
+	* configure.ac, sblim-tools-libra.spec.in,
+	  .settings/org.eclipse.cdt.core.prefs: Version upgrade to the
+	  0.2.3-1 release
+
+2006-12-04 15:15  taphorn
+
+	* src/: smt_libra_conf.c, smt_libra_conf.h, smt_libra_rastr.c: Fix
+	  for #1608477
+
+	  The fix imlemented the 'writeConf' and the 'setConf'
+	  functionality
+
+2006-12-04 15:13  taphorn
+
+	* src/: smt_libra_execscripts.h, smt_libra_execscripts.c: Fix for
+	  #1608475
+
+	  The '#define DEBUG' defines ar enow removed
+
+
+// =========================================================================
+// new in version 0.2.2-1 :
+
+
+2006-10-10 21:14  taphorn
+
+	* Makefile.am, acinclude.m4, sblim-tools-libra.spec.in,
+	  src/smt_libra_execscripts.c: Some cleanup work.
+
+	  Removed needless CVS Header from acinclude.m4, Makefile.am ans
+	  sblim-tools-libra.spec.in Updated the message content of
+	  printouts in the smt_libra_execscripts.c
+
+2006-07-22 14:45  taphorn
+
+	* AUTHORS, ChangeLog, Makefile.am, NEWS, README, acinclude.m4,
+	  autoconfiscate.sh, configure.ac, sblim-tools-libra.spec.in,
+	  src/smt_libra_conf.c, src/smt_libra_execscripts.c: Upload for new
+	  generation of tools libra: - Fixed several bugs - Added more
+	  stability
+
+	  Fixed Bugs: - pipe handles have never been closed... so suddenly
+	  the system ran out of file handles - null pointer handling has
+	  been improved.
+
+2006-02-02 16:53  taphorn
+
+	* Makefile.am, sblim-tools-libra.spec.in, src/smt_libra_conf.c,
+	  src/smt_libra_conf.h, src/smt_libra_execscripts.c,
+	  src/smt_libra_execscripts.h, src/smt_libra_monitors.h: Fixed up
+	  several compile problems.  Commented out unused functions.  Added
+	  several compiler flags.
+
+2005-10-18 13:40  taphorn
+
+	* .cdtproject, .cvsignore, .project, AUTHORS, COPYING, ChangeLog,
+	  INSTALL, Makefile, Makefile.am, NEWS, README, acinclude.m4,
+	  autoconfiscate.sh, conf.c, conf.h, configure.ac, execscripts.c,
+	  execscripts.h, license.txt, monitors.c, monitors.h, rastr.c,
+	  rastr.h, sblim-tools-libra.spec.in, setting.cmpi,
+	  src/smt_libra_conf.c, src/smt_libra_conf.h,
+	  src/smt_libra_execscripts.c, src/smt_libra_execscripts.h,
+	  src/smt_libra_monitors.c, src/smt_libra_monitors.h,
+	  src/smt_libra_rastr.c, src/smt_libra_rastr.h: Upgrade to next
+	  generation...
+
+2005-08-16 18:01  taphorn
+
+	* .project, INSTALL, Makefile, conf.c, conf.h, execscripts.c,
+	  execscripts.h, license.txt, monitors.c, monitors.h, rastr.c,
+	  rastr.h, setting.cmpi: WBEM-SMT ResourceAccess layer component
+
+	  First initial upload.
+
+	  This module includes: Common parts that are used between several
+	  WBEM-SMT tasks.
+
+// =========================================================================
+// new in version 0.2.1-1 :
+
+
+2006-10-10 21:14  taphorn
+
+	* Makefile.am, acinclude.m4, sblim-tools-libra.spec.in,
+	  src/smt_libra_execscripts.c: Some cleanup work.
+
+	  Removed needless CVS Header from acinclude.m4, Makefile.am ans
+	  sblim-tools-libra.spec.in Updated the message content of
+	  printouts in the smt_libra_execscripts.c
+
+2006-07-22 14:45  taphorn
+
+	* AUTHORS, ChangeLog, Makefile.am, NEWS, README, acinclude.m4,
+	  autoconfiscate.sh, configure.ac, sblim-tools-libra.spec.in,
+	  src/smt_libra_conf.c, src/smt_libra_execscripts.c: Upload for new
+	  generation of tools libra: - Fixed several bugs - Added more
+	  stability
+
+	  Fixed Bugs: - pipe handles have never been closed... so suddenly
+	  the system ran out of file handles - null pointer handling has
+	  been improved.
+
+2006-02-02 16:53  taphorn
+
+	* Makefile.am, sblim-tools-libra.spec.in, src/smt_libra_conf.c,
+	  src/smt_libra_conf.h, src/smt_libra_execscripts.c,
+	  src/smt_libra_execscripts.h, src/smt_libra_monitors.h: Fixed up
+	  several compile problems.  Commented out unused functions.  Added
+	  several compiler flags.
+

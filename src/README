@@ -1,0 +1,66 @@
+/* --------------------------------------------------------------------------*/
+README
+
+(C) Copyright IBM Corp. 2005
+
+THIS FILE IS PROVIDED UNDER THE TERMS OF THE ECLIPSE PUBLIC LICENSE
+("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THIS FILE
+CONSTITUTES RECIPIENTS ACCEPTANCE OF THE AGREEMENT.
+
+You can obtain a current copy of the Eclipse Public License from
+http://www.opensource.org/licenses/eclipse-1.0.php
+
+Author:       Tony Gargya <gargya@de.ibm.com>
+Date  :	      10/12/2005
+
+Contributors: 
+
+/* --------------------------------------------------------------------------*/
+
+SBLIM tools-libra README
+------------------------
+
+Introduction
+------------
+
+The tools-libra package provides common functionality required by 
+the task-specific resource access layers of the wbem-smt tasks such as 
+cmpi-dns and cmpi-samba.  
+
+Package Contents
+----------------
+
+./README		    This file
+./src/*.h		    Header Files
+./src/*.c		    Contain support for reading/writing from configuration files
+If checked out from CVS:
+./autoconfiscate.sh Contains support to setup the autoconf/automake build environment 
+
+
+Build Prerequisites
+-------------------
+
+automake 1.9.1 or higher
+
+
+Build/Install Instructions
+--------------------------
+
+The simplest way to compile and install this package is:
+
+  1. If checked out from CVS: 'cd' to the directory containing the package's source code and type
+     './autoconfiscate.sh' to setup the autoconf/automake build environment.
+       
+  2. Type './configure' to configure the package for your system.
+
+  3. Type 'make' to build the libraries
+
+  4. su to root and type 'make install' to install the libraries and the header files.
+
+This package is GNU autotool enabled; refer to the file named INSTALL for generic instructions.
+
+Contacting the WBEMSMT Project
+------------------------------
+To report weird behavior and bugs or suggestions and help contact the sblim project
+by sending email to the sblim-devel mailing list at sblim-devel@lists.sourceforge.net.
+
